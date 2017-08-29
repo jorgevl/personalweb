@@ -16,7 +16,7 @@ body {
 header {
 	width: 100%;
 	height: 8%;
-	background-color: #5D5E5D;
+	background-color: #221E1E;
 	border-bottom: 1px solid #353635;
 }
 .logo {
@@ -70,7 +70,7 @@ header {
 	margin-right: 1%;
 	border-radius: 3px;
 	padding-top: 20px;
-	border-bottom: 4px solid #6DC7D0;
+	border-bottom: 4px solid #FF6600;
 }
 .gallery .thumbnail h4 {
 	margin-top: 5px;
@@ -143,7 +143,7 @@ header {
 	transition: all 0.3s linear;
 }
 .button:hover {
-	background-color: #6DC7D0;
+	background-color: #FF6600;
 	color: #FFFFFF;
 	cursor: pointer;
 }
@@ -165,7 +165,7 @@ footer {
 }
 .intro {
 	display: inline-block;
-	background-color: #6DC7D0;
+	background-color: #FF6600;
 }
 .profile {
 	width: 40%;
