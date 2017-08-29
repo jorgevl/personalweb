@@ -45,22 +45,15 @@ img {
   a[href]:after {
     content: " (" attr(href) ")";
   }
-  a[href^="#"]:after {
-    content: "";
-  }
   img {
     page-break-inside: avoid;
   }
   img {
     max-width: 100% !important;
   }
-  p,
-  h2 {
+  p {
     orphans: 3;
     widows: 3;
-  }
-  h2 {
-    page-break-after: avoid;
   }
 }
 @font-face {
@@ -111,23 +104,18 @@ img {
 [role="button"] {
   cursor: pointer;
 }
-h1,
-h2 {
+h1 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
-h1,
-h2 {
+h1 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
 h1 {
   font-size: 36px;
-}
-h2 {
-  font-size: 30px;
 }
 p {
   margin: 0 0 10px;
@@ -159,42 +147,6 @@ p {
 .row {
   margin-right: -15px;
   margin-left: -15px;
-}
-.col-md-4, .col-lg-4, .col-sm-6, .col-xs-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.col-xs-12 {
-  float: left;
-}
-.col-xs-12 {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .col-sm-6 {
-    float: left;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  .col-md-4 {
-    float: left;
-  }
-  .col-md-4 {
-    width: 33.33333333%;
-  }
-}
-@media (min-width: 1200px) {
-  .col-lg-4 {
-    float: left;
-  }
-  .col-lg-4 {
-    width: 33.33333333%;
-  }
 }
 .btn {
   display: inline-block;
@@ -294,35 +246,6 @@ p {
   .jumbotron h1 {
     font-size: 63px;
   }
-}
-.media {
-  margin-top: 15px;
-}
-.media:first-child {
-  margin-top: 0;
-}
-.media,
-.media-body {
-  overflow: hidden;
-  zoom: 1;
-}
-.media-body {
-  width: 10000px;
-}
-.media-object {
-  display: block;
-}
-.media-left {
-  padding-right: 10px;
-}
-.media-left,
-.media-body {
-  display: table-cell;
-  vertical-align: top;
-}
-.media-heading {
-  margin-top: 0;
-  margin-bottom: 5px;
 }
 .well {
   min-height: 20px;
@@ -450,9 +373,6 @@ p {
   left: -14px;
   right: auto;
 }
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
-}
 .timeline-badge.success {
   background-color: #3f903f !important;
 }
@@ -469,10 +389,6 @@ p {
   margin-top: 0;
   color: inherit;
 }
-.timeline-body > p,
-.timeline-body > ul {
+.timeline-body > p {
   margin-bottom: 0;
-}
-.timeline-body > p + p {
-  margin-top: 5px;
 }

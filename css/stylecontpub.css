@@ -54,7 +54,6 @@ img {
   img {
     max-width: 100% !important;
   }
-  p,
   h2 {
     orphans: 3;
     widows: 3;
@@ -128,9 +127,6 @@ h1 {
 }
 h2 {
   font-size: 30px;
-}
-p {
-  margin: 0 0 10px;
 }
 .text-center {
   text-align: center;
@@ -277,11 +273,6 @@ p {
 }
 .jumbotron h1 {
   color: inherit;
-}
-.jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
 }
 .jumbotron .container {
   max-width: 100%;
